@@ -17,6 +17,33 @@ type PortfolioProject = {
 
 const projects: PortfolioProject[] = [
   {
+  title: 'DocQuery AI (RAG-Based Document Chatbot)',
+  description: 'AI-powered document question-answering system that enables users to chat with PDF documents using Retrieval-Augmented Generation (RAG).',
+  techStack: [
+    'LangChain',
+    'FAISS',
+    'GROQ API',
+    'Python',
+    'Streamlit',
+    'Sentence Transformers',
+    'Hugging Face Transformers',
+    'PyTorch',
+    'PyMuPDF'
+  ],
+  metric: 'Reduced document search time by 80%',
+  githubUrl: 'https://github.com/HimanshuMali701/DocQuery-AI',
+  demoUrl: 'https://rag-docquery-ai.streamlit.app/',
+  caseStudy: {
+    problem:
+      'Users spend significant time manually searching through lengthy PDF documents to find relevant information.',
+    approach:
+      'Built a Retrieval-Augmented Generation (RAG) pipeline that extracts text from PDFs, performs intelligent chunking, generates semantic embeddings, stores them in a FAISS vector database, retrieves the most relevant context for user queries, and produces concise AI-generated answers with conversation history.',
+    keyResults:
+      'Reduced document search time by 80%, enabled accurate context-aware question answering, and improved accessibility for large technical documents.',
+  },
+  featured: true,
+},
+  {
     title: 'AI Dataset Assistant (LLM + Data Intelligence)',
     description: 'Interactive dataset analysis and preprocessing assistant powered by local LLMs.',
     techStack: ['Python', 'Scikit-learn', 'Ollama', 'Streamlit', 'Matplotlib', 'Seaborn'],
@@ -57,7 +84,7 @@ const projects: PortfolioProject[] = [
     metric: 'Improved prediction accuracy by 18%',
     githubUrl: "https://github.com/HimanshuMali701/Turbofan-Engine-Remaining-Useful-Life-RUL-Prediction-FD001-",
     demoUrl: "https://turbofan-engine-remaining-useful-life-rul-prediction-fd001.streamlit.app/",
-    caseStudy: {
+    /*caseStudy: {
       problem:
         'Unexpected engine failures increased maintenance cost and reduced operational reliability.',
       approach:
@@ -65,8 +92,24 @@ const projects: PortfolioProject[] = [
       keyResults:
         'Boosted RUL prediction accuracy by 18% and identified high-risk components earlier.',
     },
-    featured: true,
+    featured: true,*/
   },
+  {
+  title: 'SummarAI (AI Text Summarizer)',
+  description: 'AI-powered text summarization application that generates concise and customizable summaries using Transformer-based NLP models.',
+  techStack: [
+    'Hugging Face',
+    'NLTK',
+    'Transformers',
+    'PyTorch',
+    'NLTK',
+    'Plotly'
+  ],
+  metric: 'Reduced reading time by 75%',
+  githubUrl: 'https://github.com/HimanshuMali701/SummarAI-AI-PDF-Summariser',
+  demoUrl: 'https://summarai-ai-pdf-summariser.streamlit.app/',
+  
+},
   {
     title: 'Smart Waste Classifier',
     description: 'Real-time computer vision system for waste category classification.',
