@@ -1,61 +1,100 @@
 type SkillCategory = {
-  title: 'Programming' | 'Data Science' | 'Analytics' | 'Tools' | 'AI and Machine Learning'
+  title:   | 'AI & Machine Learning'
+  | 'LLMs & RAG'
+  | 'Data Science'
+  | 'Data Analytics & Visualization'
+  | 'Programming & Databases'
+  | 'Tools & Deployment'
   description?: string
   skills: string[]
 }
 
 const categories: SkillCategory[] = [
-
-  {
-    title: 'AI and Machine Learning',
-    description: 'Building intelligent systems using Machine Learning, Deep Learning, and Natural Language Processing.',
-    skills: [
-      'Machine Learning',
-      'Deep Learning',
-      'NLP',
-      'TensorFlow',
-      'Flask',
-      'LLMs (Ollama)',
-      'Model Development',
-      
-    ],
-  },
-  {
-    title: 'Data Science',
-    description: 'Data-driven problem solving through analysis, feature engineering, and model building.',
-    skills: [
-      'Pandas',
-      'NumPy',
-      'Scikit-learn',
-      'Feature Engineering',
-      'Data Preprocessing',
-      'Model Evaluation'
-    ],
-  },
-  {
-    title: 'Analytics',
-    description: 'Extracting insights through data cleaning, transformation, and visualization.',
-    skills: [
-      'EDA',
-      'Data Cleaning',
-      'Data Transformation',
-      'Dashboarding',
-      'Power BI',
-      'MySQL',
-      'MongoDB'
-    ],
-  },
-  {
-    title: 'Programming',
-    description: 'Writing efficient code for data processing and problem solving.',
-    skills: ['Python', 'SQL', 'C'],
-  },
-  {
-    title: 'Tools',
-    description: 'Tools for development, experimentation, and deployment.',
-    skills: ['Git', 'GitHub', 'Jupyter', 'Streamlit', 'Excel', 'VS Code'],
-  },
-]
+    {
+      title: 'AI & Machine Learning',
+      description: 'Building intelligent systems using Machine Learning, Deep Learning, Generative AI, and modern AI frameworks.',
+      skills: [
+        'Machine Learning',
+        'Deep Learning',
+        'ANN',
+        'CNN',
+        'RNN',
+        'LSTM',
+        'TensorFlow',
+        'Model Development',
+        'Generative AI'
+      ],
+    },
+    {
+      title: 'LLMs & RAG',
+      description: 'Developing LLM-powered applications with Retrieval-Augmented Generation, semantic search, and vector databases.',
+      skills: [
+        'LangChain',
+        'FAISS',
+        'Hugging Face',
+        'Sentence Transformers',
+        'Embedding Models',
+        'Vector Databases',
+        'RAG',
+        'Groq API',
+        'Ollama',
+        'Prompt Engineering'
+      ],
+    },
+    {
+      title: 'Data Science',
+      description: 'Data-driven problem solving through preprocessing, feature engineering, and predictive modeling.',
+      skills: [
+        'Pandas',
+        'NumPy',
+        'Scikit-learn',
+        'EDA',
+        'Regression',
+        'Classification',
+        'Data Preprocessing',
+        'Feature Engineering',
+        'Model Evaluation',
+        'ETL'
+      ],
+    },
+    {
+      title: 'Data Analytics & Visualization',
+      description: 'Transforming raw data into meaningful insights through analysis and visualization.',
+      skills: [
+        'Data Cleaning',
+        'Data Transformation',
+        'Semantic Search',
+        'Matplotlib',
+        'Seaborn',
+        'Power BI',
+        'Dashboarding'
+      ],
+    },
+    {
+      title: 'Programming & Databases',
+      description: 'Programming languages and database technologies for AI and software development.',
+      skills: [
+        'Python',
+        'SQL',
+        'C',
+        'MySQL',
+        'MongoDB'
+      ],
+    },
+    {
+      title: 'Tools & Deployment',
+      description: 'Development, experimentation, version control, deployment, and containerization tools.',
+      skills: [
+        'Git',
+        'GitHub',
+        'VS Code',
+        'Jupyter Notebook',
+        'Streamlit',
+        'Docker',
+        'Microsoft Excel'
+      ],
+    },
+  ]
 
 export default function Skills() {
   return (
@@ -68,6 +107,7 @@ export default function Skills() {
           <h2 className="bg-gradient-to-r from-blue-700 to-violet-600 bg-clip-text text-3xl font-bold tracking-tight text-transparent dark:from-blue-300 dark:to-violet-300 sm:text-4xl">
             Technologies & Skills
           </h2>
+          
           <p className="section-subtitle mx-auto">
             Core tools and technologies I use to build data-driven solutions.
           </p>

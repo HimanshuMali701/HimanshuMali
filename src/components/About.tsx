@@ -16,43 +16,56 @@ function About() {
             </h2>
 
             <div className="mt-6 space-y-4 text-gray-600 dark:text-gray-300 leading-relaxed">
-              <p>
-                I’m a{" "}
-                <span className="font-semibold text-gray-800 dark:text-white">
-                  data-driven Computer Engineering student
-                </span>{" "}
-                focused on solving real-world problems through
-                <span className="font-medium text-blue-600 dark:text-blue-400">
-                  {" "}analytics
-                </span>{" "}
-                and
-                <span className="font-medium text-violet-600 dark:text-violet-400">
-                  {" "}intelligent systems
-                </span>.
-              </p>
+  <p>
+    I’m a{" "}
+    <span className="font-semibold text-gray-800 dark:text-white">
+      Computer Engineering student
+    </span>{" "}
+    passionate about building intelligent applications using
+    <span className="font-medium text-blue-600 dark:text-blue-400">
+      {" "}Artificial Intelligence
+    </span>
+    ,
+    <span className="font-medium text-violet-600 dark:text-violet-400">
+      {" "}Machine Learning
+    </span>
+    , and
+    <span className="font-medium text-cyan-600 dark:text-cyan-400">
+      {" "}Generative AI
+    </span>
+    .
+  </p>
 
-              <p>
-                I have hands-on experience in{" "}
-                <span className="font-medium">
-                  Python, SQL, and Machine Learning
-                </span>
-                , with a strong emphasis on extracting insights and building
-                <span className="font-medium">
-                  {" "}practical, data-driven solutions
-                </span>.
-              </p>
+  <p>
+    I have hands-on experience with{" "}
+    <span className="font-medium">
+      Python, SQL, LangChain, FAISS, Hugging Face, TensorFlow, and LLMs
+    </span>
+    , developing AI-powered applications that leverage
+    <span className="font-medium">
+      {" "}Natural Language Processing (NLP)
+    </span>
+    , semantic search, and
+    <span className="font-medium">
+      {" "}Retrieval-Augmented Generation (RAG)
+    </span>
+    .
+  </p>
 
-              <p>
-                I actively build projects in{" "}
-                <span className="font-medium">
-                  Data Science and Analytics
-                </span>
-                , including dashboards, predictive models, and end-to-end data workflows.
-                My goal is to create{" "}
-                <span className="font-semibold">impactful solutions</span> that bridge the gap between
-                <span className="italic"> data and decision-making</span>.
-              </p>
-            </div>
+  <p>
+    I actively build projects including{" "}
+    <span className="font-medium">
+      AI document chatbots, intelligent recommendation systems, NLP-based text summarizers,
+      and AI data assistants
+    </span>
+    . My goal is to create{" "}
+    <span className="font-semibold">scalable AI solutions</span> that bridge the gap between
+    <span className="italic">
+      {" "}cutting-edge AI research and real-world applications
+    </span>
+    .
+  </p>
+</div>
           </div>
 
           {/* RIGHT SIDE - CARDS */}

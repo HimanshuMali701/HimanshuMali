@@ -8,6 +8,13 @@ type FeaturedCertificate = {
 
 const featuredCertificates: FeaturedCertificate[] = [
   {
+    title: 'START 2026 IIRS ISRO Training Program',
+    issuer: 'Indian Institute of Space Science and Technology',
+    year: '2026',
+    image: '/certificates/START 2026 IIRS ISRO.png',
+    link: '/certificates/START 2026 IIRS ISRO.pdf',
+  },
+  {
     title: 'Data Science, Machine Learning, Deep Learning & NLP Bootcamp',
     issuer: 'Udemy (Instructor: Krish Naik)',
     year: '2026',

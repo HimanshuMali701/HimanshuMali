@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const tagline = 'Data Science & Analytics Enthusiast | Building Intelligent Data-Driven Systems'
+const tagline = 'AI & Machine Learning Engineer |Building Intelligent AI Applications'
 
 function Hero() {
   const [typedText, setTypedText] = useState('')
@@ -49,9 +49,7 @@ function Hero() {
         </p>
 
         <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-slate-600 dark:text-slate-300 sm:text-lg">
-          I focus on applying machine learning and analytics to solve real-world 
-        engineering and business problems. I enjoy transforming complex datasets into reliable, 
-        practical solutions that drive meaningful insights.
+          I build AI-powered applications using Machine Learning, Generative AI, LLMs, and Retrieval-Augmented Generation (RAG). Passionate about transforming complex data and documents into intelligent, real-world solutions through modern AI technologies.
         </p>
 
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -82,11 +80,11 @@ function Hero() {
             <p className="text-sm text-slate-600 dark:text-slate-300">Projects</p>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white/80 px-5 py-4 shadow-sm backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/70">
-            <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">ML / NLP / LLM</p>
-            <p className="text-sm text-slate-600 dark:text-slate-300">Core Domains</p>
+            <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">LLMs • RAG • NLP</p>
+            <p className="text-sm text-slate-600 dark:text-slate-300">Core Expertise</p>
           </div>
           <div className="rounded-2xl border border-slate-200 bg-white/80 px-5 py-4 shadow-sm backdrop-blur-sm dark:border-slate-800 dark:bg-slate-900/70">
-            <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">Data Science</p>
+            <p className="text-2xl font-bold text-slate-900 dark:text-slate-100">AI / ML Engineer</p>
             <p className="text-sm text-slate-600 dark:text-slate-300">Career Focus</p>
           </div>
         </div>
