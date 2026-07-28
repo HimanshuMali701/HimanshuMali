@@ -8,7 +8,6 @@
 ## 🌐 Live Portfolio
 
 👉 https://himanshumali.vercel.app/
-
 ---
 
 ## 🧠 About Me
