@@ -35,6 +35,7 @@ Focused on solving real-world problems through:
 * Matplotlib, Seaborn
 * EDA, Feature Engineering
 * Regression & Classification
+* LangChain
 
 **Data & Tools**
 
