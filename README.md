@@ -104,7 +104,5 @@ Focused on solving real-world problems through:
 ---
 
 
-## 📌 Note
 
-This portfolio is focused on **Data Science, Analytics, and ML projects.**
 
