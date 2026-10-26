@@ -10,91 +10,112 @@ type SkillCategory = {
 }
 
 const categories: SkillCategory[] = [
-    {
-      title: 'AI & Machine Learning',
-      description: 'Building intelligent systems using Machine Learning, Deep Learning, Generative AI, and modern AI frameworks.',
-      skills: [
-        'Machine Learning',
-        'Deep Learning',
-        'ANN',
-        'CNN',
-        'RNN',
-        'LSTM',
-        'TensorFlow',
-        'Model Development',
-        'Generative AI'
-      ],
-    },
-    {
-      title: 'LLMs & RAG',
-      description: 'Developing LLM-powered applications with Retrieval-Augmented Generation, semantic search, and vector databases.',
-      skills: [
-        'LangChain',
-        'FAISS',
-        'Hugging Face',
-        'Sentence Transformers',
-        'Embedding Models',
-        'Vector Databases',
-        'RAG',
-        'Groq API',
-        'Ollama',
-        'Prompt Engineering'
-      ],
-    },
-    {
-      title: 'Data Science',
-      description: 'Data-driven problem solving through preprocessing, feature engineering, and predictive modeling.',
-      skills: [
-        'Pandas',
-        'NumPy',
-        'Scikit-learn',
-        'EDA',
-        'Regression',
-        'Classification',
-        'Data Preprocessing',
-        'Feature Engineering',
-        'Model Evaluation',
-        'ETL'
-      ],
-    },
-    {
-      title: 'Data Analytics & Visualization',
-      description: 'Transforming raw data into meaningful insights through analysis and visualization.',
-      skills: [
-        'Data Cleaning',
-        'Data Transformation',
-        'Semantic Search',
-        'Matplotlib',
-        'Seaborn',
-        'Power BI',
-        'Dashboarding'
-      ],
-    },
-    {
-      title: 'Programming & Databases',
-      description: 'Programming languages and database technologies for AI and software development.',
-      skills: [
-        'Python',
-        'SQL',
-        'C',
-        'MySQL',
-        'MongoDB'
-      ],
-    },
-    {
-      title: 'Tools & Deployment',
-      description: 'Development, experimentation, version control, deployment, and containerization tools.',
-      skills: [
-        'Git',
-        'GitHub',
-        'VS Code',
-        'Jupyter Notebook',
-        'Streamlit',
-        'Docker',
-        'Microsoft Excel'
-      ],
-    },
-  ]
+  {
+    title: 'AI & Machine Learning',
+    description: 'Building intelligent systems using Machine Learning, Deep Learning, Generative AI, and modern AI frameworks.',
+    skills: [
+      'Machine Learning',
+      'Deep Learning',
+      'ANN',
+      'CNN',
+      'RNN',
+      'LSTM',
+      'TensorFlow',
+      'PyTorch',
+      'Model Development',
+      'Generative AI',
+      'NLP'
+    ],
+  },
+  {
+    title: 'LLMs & RAG',
+    description: 'Developing LLM-powered applications with Retrieval-Augmented Generation, semantic search, and vector databases.',
+    skills: [
+      'LangChain',
+      'LangGraph',
+      'LLMs',
+      'FAISS',
+      'Hugging Face',
+      'Sentence Transformers',
+      'Embedding Models',
+      'Embeddings',
+      'Vector Databases',
+      'RAG',
+      'Groq API',
+      'Ollama',
+      'Prompt Engineering'
+    ],
+  },
+  {
+    title: 'Data Science',
+    description: 'Data-driven problem solving through preprocessing, feature engineering, and predictive modeling.',
+    skills: [
+      'Pandas',
+      'NumPy',
+      'Scikit-learn',
+      'EDA',
+      'Regression',
+      'Classification',
+      'Data Preprocessing',
+      'Feature Engineering',
+      'Model Evaluation',
+      'ETL'
+    ],
+  },
+  {
+    title: 'Data Analytics & Visualization',
+    description: 'Transforming raw data into meaningful insights through analysis and visualization.',
+    skills: [
+      'Data Cleaning',
+      'Data Transformation',
+      'Semantic Search',
+      'Matplotlib',
+      'Seaborn',
+      'Power BI',
+      'Dashboarding'
+    ],
+  },
+  {
+    title: 'Programming & Databases',
+    description: 'Programming languages and database technologies for AI and software development.',
+    skills: [
+      'Python',
+      'SQL',
+      'C',
+      'MySQL',
+      'MongoDB',
+      'PostgreSQL',
+      'Supabase'
+    ],
+  },
+  {
+    title: 'Frameworks & Development',
+    description: 'Building AI-powered applications, APIs, and interactive web experiences.',
+    skills: [
+      'FastAPI',
+      'React',
+      'Streamlit'
+    ],
+  },
+  {
+    title: 'Tools & Deployment',
+    description: 'Development, experimentation, version control, deployment, and containerization tools.',
+    skills: [
+      'Git',
+      'GitHub',
+      'VS Code',
+      'Jupyter Notebook',
+      'Streamlit',
+      'Docker',
+      'Microsoft Excel',
+      'Postman',
+      'Google Colab',
+      'Vercel',
+      'Railway',
+      'Render'
+    ],
+  },
+];
 
 export default function Skills() {
   return (

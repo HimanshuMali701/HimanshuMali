@@ -28,7 +28,6 @@ const projects: PortfolioProject[] = [
     metric:
       'Analyzed 3,000+ security rules for intelligent threat detection and rule discovery',
     githubUrl: 'https://github.com/HimanshuMali701/Security-Monitoring-Agent',
-    // Add demoUrl only if you have a live dashboard or demo.
     caseStudy: {
       problem:
         'Security analysts face challenges identifying relevant detection rules across large rule sets and investigating endpoint security alerts efficiently.',

@@ -81,7 +81,7 @@ function About() {
                 C.K. Pithawala College of Engineering and Technology (GTU)
               </p>
               <p className="mt-2 text-sm font-medium text-cyan-300">
-                CGPA: 8.26
+                CGPA: 8.28
               </p>
             </article>
 
