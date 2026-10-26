@@ -17,32 +17,55 @@ type PortfolioProject = {
 
 const projects: PortfolioProject[] = [
   {
-  title: 'DocQuery AI (RAG-Based Document Chatbot)',
-  description: 'AI-powered document question-answering system that enables users to chat with PDF documents using Retrieval-Augmented Generation (RAG).',
-  techStack: [
-    'LangChain',
-    'FAISS',
-    'GROQ API',
-    'Python',
-    'Streamlit',
-    'Sentence Transformers',
-    'Hugging Face Transformers',
-    'PyTorch',
-    'PyMuPDF'
-  ],
-  metric: 'Reduced document search time by 80%',
-  githubUrl: 'https://github.com/HimanshuMali701/DocQuery-AI',
-  demoUrl: 'https://rag-docquery-ai.streamlit.app/',
-  caseStudy: {
-    problem:
-      'Users spend significant time manually searching through lengthy PDF documents to find relevant information.',
-    approach:
-      'Built a Retrieval-Augmented Generation (RAG) pipeline that extracts text from PDFs, performs intelligent chunking, generates semantic embeddings, stores them in a FAISS vector database, retrieves the most relevant context for user queries, and produces concise AI-generated answers with conversation history.',
-    keyResults:
-      'Reduced document search time by 80%, enabled accurate context-aware question answering, and improved accessibility for large technical documents.',
+    title: 'Security Monitoring Agent',
+    description:
+      'Endpoint security monitoring agent that scans systems, detects suspicious activity using security rules, and provides actionable alerts for security analysis.',
+    techStack: [
+      'Python',
+      'Endpoint Monitoring',
+      'Rule-Based Detection',
+    ],
+    metric:
+      'Analyzed 3,000+ security rules for intelligent threat detection and rule discovery',
+    githubUrl: 'https://github.com/HimanshuMali701/Security-Monitoring-Agent',
+    // Add demoUrl only if you have a live dashboard or demo.
+    caseStudy: {
+      problem:
+        'Security analysts face challenges identifying relevant detection rules across large rule sets and investigating endpoint security alerts efficiently.',
+      approach:
+        'Developed a custom endpoint monitoring agent that scans systems, evaluates security events against detection rules, and supports AI-assisted rule discovery to make security rule investigation more efficient.',
+      keyResults:
+        'Built a standalone Windows executable, analyzed a rule set containing over 3,000 rules, and tested detection against 20 rules.'
+    },
+    featured: true,
   },
-  featured: true,
-},
+  {
+    title: 'DocQuery AI (RAG-Based Document Chatbot)',
+    description: 'AI-powered document question-answering system that enables users to chat with PDF documents using Retrieval-Augmented Generation (RAG).',
+    techStack: [
+      'LangChain',
+      'FAISS',
+      'GROQ API',
+      'Python',
+      'Streamlit',
+      'Sentence Transformers',
+      'Hugging Face Transformers',
+      'PyTorch',
+      'PyMuPDF'
+    ],
+    metric: 'Reduced document search time by 80%',
+    githubUrl: 'https://github.com/HimanshuMali701/DocQuery-AI',
+    demoUrl: 'https://doc-query-ai-rag-chatbot-lemon.vercel.app/',
+    caseStudy: {
+      problem:
+        'Users spend significant time manually searching through lengthy PDF documents to find relevant information.',
+      approach:
+        'Built a Retrieval-Augmented Generation (RAG) pipeline that extracts text from PDFs, performs intelligent chunking, generates semantic embeddings, stores them in a FAISS vector database, retrieves the most relevant context for user queries, and produces concise AI-generated answers with conversation history.',
+      keyResults:
+        'Reduced document search time by 80%, enabled accurate context-aware question answering, and improved accessibility for large technical documents.',
+    },
+    featured: true,
+  },
   {
     title: 'AI Dataset Assistant (LLM + Data Intelligence)',
     description: 'Interactive dataset analysis and preprocessing assistant powered by local LLMs.',
@@ -58,12 +81,12 @@ const projects: PortfolioProject[] = [
       keyResults:
         'Improved dataset readiness by automating EDA, quality assessment, and end-to-end preprocessing pipeline generation.',
     },
-    featured: true,
+    featured: false,
   },
   {
     title: 'ProjectPath AI (AI Career Project Advisor)',
     description: 'AI-powered skill analysis and project recommendation system for career-aligned guidance.',
-    techStack: ['Python', 'NLP', 'React.js', 'Tailwind CSS',  'Plotly', 'Recharts'],
+    techStack: ['Python', 'NLP', 'React.js', 'Tailwind CSS', 'Plotly', 'Recharts'],
     metric: 'Improved recommendation relevance by 29%',
     githubUrl: "https://github.com/HimanshuMali701/ProjectPath_AI",
     demoUrl: "https://project-path-ai-peach.vercel.app/",
@@ -80,7 +103,7 @@ const projects: PortfolioProject[] = [
   {
     title: 'Aircraft Engine Remaining Useful Life Prediction',
     description: 'Predictive maintenance system for estimating aircraft engine remaining useful life.',
-    techStack: ['Python', 'Scikit-learn', 'Jupyter Notebook', 'Pandas', 'NumPy','Streamlit'],
+    techStack: ['Python', 'Scikit-learn', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Streamlit'],
     metric: 'Improved prediction accuracy by 18%',
     githubUrl: "https://github.com/HimanshuMali701/Turbofan-Engine-Remaining-Useful-Life-RUL-Prediction-FD001-",
     demoUrl: "https://turbofan-engine-remaining-useful-life-rul-prediction-fd001.streamlit.app/",
@@ -95,28 +118,28 @@ const projects: PortfolioProject[] = [
     featured: true,*/
   },
   {
-  title: 'SummarAI (AI Text Summarizer)',
-  description: 'AI-powered text summarization application that generates concise and customizable summaries using Transformer-based NLP models.',
-  techStack: [
-    'Hugging Face',
-    'NLTK',
-    'Transformers',
-    'PyTorch',
-    'NLTK',
-    'Plotly'
-  ],
-  metric: 'Reduced reading time by 75%',
-  githubUrl: 'https://github.com/HimanshuMali701/SummarAI-AI-PDF-Summariser',
-  demoUrl: 'https://summarai-ai-pdf-summariser.streamlit.app/',
-  
-},
+    title: 'SummarAI (AI Text Summarizer)',
+    description: 'AI-powered text summarization application that generates concise and customizable summaries using Transformer-based NLP models.',
+    techStack: [
+      'Hugging Face',
+      'NLTK',
+      'Transformers',
+      'PyTorch',
+      'NLTK',
+      'Plotly'
+    ],
+    metric: 'Reduced reading time by 75%',
+    githubUrl: 'https://github.com/HimanshuMali701/SummarAI-AI-PDF-Summariser',
+    demoUrl: 'https://summarai-ai-pdf-summariser.streamlit.app/',
+
+  },
   {
     title: 'Smart Waste Classifier',
     description: 'Real-time computer vision system for waste category classification.',
     techStack: ['Python', 'MobileNetV2', 'OpenCV'],
     metric: 'Processed live camera frames at 24 FPS',
     githubUrl: "https://github.com/HimanshuMali701/Smart-Waste-Classifier",
-    
+
   },
   {
     title: 'Customer Churn Prediction ANN',
@@ -155,7 +178,7 @@ const projects: PortfolioProject[] = [
     techStack: ['Data Analysis', 'Forecasting', 'Visual Analytics'],
     metric: 'Analyzed 5+ years of sales data across 15+ vehicle categories',
     githubUrl: "https://github.com/HimanshuMali701/indian-automotive-sales-analysis",
-    
+
   },
   {
     title: 'House Rent Price Predictor',
@@ -183,26 +206,26 @@ function Projects() {
     <section id="projects" className="section-shell section-divider flex min-h-screen items-center bg-white dark:bg-slate-950 scroll-mt-20">
       <div className="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <div data-reveal className="max-w-2xl">
-  <h2 className="bg-gradient-to-r from-blue-700 via-indigo-600 to-violet-600 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl dark:from-blue-300 dark:via-indigo-300 dark:to-violet-300">
-    Featured Projects
-  </h2>
+          <h2 className="bg-gradient-to-r from-blue-700 via-indigo-600 to-violet-600 bg-clip-text text-3xl font-bold tracking-tight text-transparent sm:text-4xl dark:from-blue-300 dark:via-indigo-300 dark:to-violet-300">
+            Featured Projects
+          </h2>
 
-  <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
-    A curated selection of projects showcasing my work in{" "}
-    <span className="font-medium text-blue-600 dark:text-blue-400">
-      Data Science
-    </span>
-    ,{" "}
-    <span className="font-medium text-indigo-600 dark:text-indigo-400">
-      Analytics
-    </span>
-    , and{" "}
-    <span className="font-medium text-violet-600 dark:text-violet-400">
-      intelligent systems
-    </span>
-    — focused on solving real-world problems with practical, data-driven solutions.
-  </p>
-</div>
+          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
+            A curated selection of projects showcasing my work in{" "}
+            <span className="font-medium text-blue-600 dark:text-blue-400">
+              Data Science
+            </span>
+            ,{" "}
+            <span className="font-medium text-indigo-600 dark:text-indigo-400">
+              Analytics
+            </span>
+            , and{" "}
+            <span className="font-medium text-violet-600 dark:text-violet-400">
+              intelligent systems
+            </span>
+            — focused on solving real-world problems with practical, data-driven solutions.
+          </p>
+        </div>
 
         {featuredProjects.length > 0 ? (
           <div className="mt-12">
@@ -218,7 +241,7 @@ function Projects() {
                   techStack={project.techStack}
                   metric={project.metric}
                   githubUrl={project.githubUrl}
-                demoUrl={project.demoUrl}
+                  demoUrl={project.demoUrl}
                   caseStudy={project.caseStudy}
                   featured
                 />
@@ -241,7 +264,7 @@ function Projects() {
                   techStack={project.techStack}
                   metric={project.metric}
                   githubUrl={project.githubUrl}
-                demoUrl={project.demoUrl}
+                  demoUrl={project.demoUrl}
                 />
               ))}
             </div>
